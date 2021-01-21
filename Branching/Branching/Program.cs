@@ -10,45 +10,69 @@ namespace Branching
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
-            Console.WriteLine("Please enter your package's weight.");
-            double packageWeight = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
+            //Console.WriteLine("Please enter your package's weight.");
+            //double packageWeight = Convert.ToDouble(Console.ReadLine());
 
-            if (packageWeight > 50)
+            //if (packageWeight > 50)
+            //{
+            //    Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+            //    Console.ReadLine();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("What is your package's width?");
+            //    double packageWidth = Convert.ToDouble(Console.ReadLine());
+
+            //    Console.WriteLine("What is your package's height?");
+            //    double packageHeight = Convert.ToDouble(Console.ReadLine());
+
+            //    Console.WriteLine("What is your package's Length?");
+            //    double packageLength = Convert.ToDouble(Console.ReadLine());
+
+            //    double packageDimensions = packageWidth + packageHeight + packageLength;
+            //    if (packageDimensions > 50)
+            //    {
+            //        Console.WriteLine("Package too big to be shipped via Package Express");
+            //        Console.ReadLine();
+            //    }
+            //    else
+            //    {
+            //        double packageVolume = packageWidth * packageHeight * packageLength;
+            //        decimal quoteAmount = Convert.ToDecimal(packageVolume) * Convert.ToDecimal(packageWeight) / 100.00m;
+            //        Console.WriteLine("Your estimated total for shipping this package is: $" + quoteAmount);
+            //        Console.WriteLine("Thank you!");
+            //        Console.ReadLine();
+
+            //    }
+            //}
+
+            Console.WriteLine("What day number is it? Monday is 1, Sunday is 7");
+            int dayNumber = Convert.ToInt32(Console.ReadLine());
+            switch (dayNumber)
             {
-                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
-                Console.ReadLine();
+                case 4:
+                    Console.WriteLine("It's Thursday! Our tradition is Thai Thursday.");
+                    break;
+                case 6:
+                case 7:
+                    Console.WriteLine("Woohoo! It's the weekend.");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday! It's the final stretch");
+                    break;
+                case 1:
+                case 2:
+                case 3:
+                    Console.WriteLine("Meh... The week has just begun.");
+                    break;
+                default:
+                    Console.WriteLine("Wait, you shouldn't be reading this...");
+                    break;
             }
-            else
-            {
-                Console.WriteLine("What is your package's width?");
-                double packageWidth = Convert.ToDouble(Console.ReadLine());
+            Console.ReadLine();
 
-                Console.WriteLine("What is your package's height?");
-                double packageHeight = Convert.ToDouble(Console.ReadLine());
                 
-                Console.WriteLine("What is your package's Length?");
-                double packageLength = Convert.ToDouble(Console.ReadLine());
-
-                double packageDimensions = packageWidth + packageHeight + packageLength;
-                if (packageDimensions > 50)
-                {
-                    Console.WriteLine("Package too big to be shipped via Package Express");
-                    Console.ReadLine();
-                }
-                else
-                {
-                    double packageVolume = packageWidth * packageHeight * packageLength;
-                    decimal quoteAmount = Convert.ToDecimal(packageVolume) * Convert.ToDecimal(packageWeight) / 100.00m;
-                    Console.WriteLine("Your estimated total for shipping this package is: $" + quoteAmount);
-                    Console.WriteLine("Thank you!");
-                    Console.ReadLine();
-
-                }
-            }
-
-
-
 
 
 
