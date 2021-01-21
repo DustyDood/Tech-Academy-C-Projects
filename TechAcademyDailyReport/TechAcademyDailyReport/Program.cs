@@ -10,8 +10,31 @@ namespace TechAcademyDailyReport
     {
         static void Main(string[] args)
         {
+
+            ////Math for the next assignment!
+            //int addition = 8 + 10;
+            //Console.WriteLine(addition);
+
+            //int subtraction = 19 - 2;
+            //Console.WriteLine(subtraction);
+
+            //int multiplication = 2 * 50;
+            //Console.WriteLine(multiplication);
+
+            //int division = 192 / 3;
+            //Console.WriteLine(division);
+
+            string firstString = "My favorite number is ";
+            int mathNumberThing = 17;
+            Console.WriteLine(firstString + mathNumberThing);
+
+
+
+
             Console.WriteLine("The Tech Academy");
             Console.WriteLine("Student Daily Report");
+
+
             Console.WriteLine("What is your name?");
             string userName = Console.ReadLine();
             Console.WriteLine("What course are you on?");
