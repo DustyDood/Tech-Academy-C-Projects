@@ -8,7 +8,7 @@ namespace BooleanLogic
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Console.WriteLine(true && false);
             //Console.WriteLine(true && true);
@@ -47,6 +47,26 @@ namespace BooleanLogic
             Console.WriteLine(eligibilityCheck);
             Console.ReadLine();
 
+
+            if (age <= 15)
+            {
+                Console.WriteLine("I'm sorry, but you're too young to drive!");
+            }
+            else if (DUICheck || tickets >= 4)
+            {
+                Console.WriteLine("I'm sorry, but your previous driving record prevents approval");
+            }
+            else
+            {
+                Console.WriteLine("Congrats on getting approval!");
+            }
+
+            Console.ReadLine();
+
+            var DUITernary = DUICheck != false ? ("You have a DUI") : ("You don't have a DUI");
+            Console.WriteLine(DUITernary);
+
+            Console.ReadLine();
 
         }
     }
