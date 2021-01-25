@@ -1,0 +1,6 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\bin\Debug\DefaultParameterPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\bin\Debug\DefaultParameterPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\bin\Debug\DefaultParameterPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\obj\Debug\DefaultParameterPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\obj\Debug\DefaultParameterPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DefaultParameterPractice\DefaultParameterPractice\obj\Debug\DefaultParameterPractice.pdb
