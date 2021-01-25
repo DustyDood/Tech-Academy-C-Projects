@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\bin\Debug\ClassPracticeAssignment.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\bin\Debug\ClassPracticeAssignment.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\bin\Debug\ClassPracticeAssignment.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\obj\Debug\ClassPracticeAssignment.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\obj\Debug\ClassPracticeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\obj\Debug\ClassPracticeAssignment.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\ClassPracticeAssignment\ClassPracticeAssignment\obj\Debug\ClassPracticeAssignment.pdb

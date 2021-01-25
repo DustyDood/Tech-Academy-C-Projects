@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
