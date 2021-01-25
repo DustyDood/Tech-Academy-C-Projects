@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\bin\Debug\NamedParameterPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\bin\Debug\NamedParameterPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\bin\Debug\NamedParameterPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\obj\Debug\NamedParameterPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\obj\Debug\NamedParameterPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\obj\Debug\NamedParameterPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\NamedParameterPractice\NamedParameterPractice\obj\Debug\NamedParameterPractice.pdb
