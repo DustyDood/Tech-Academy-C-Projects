@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\bin\Debug\AbstractPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\bin\Debug\AbstractPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\bin\Debug\AbstractPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\obj\Debug\AbstractPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\obj\Debug\AbstractPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\obj\Debug\AbstractPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\AbstractPractice\AbstractPractice\obj\Debug\AbstractPractice.pdb
