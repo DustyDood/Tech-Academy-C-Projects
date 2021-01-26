@@ -10,6 +10,7 @@ namespace AbstractPractice
     {
         public virtual string firstName { get; set; }
         public virtual string lastName { get; set; }
+        public virtual string ID { get; set; }
 
         public abstract void sayName();
 

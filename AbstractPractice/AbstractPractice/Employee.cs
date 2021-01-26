@@ -32,5 +32,22 @@ namespace AbstractPractice
             Console.WriteLine("You can't tell me what to do! I quit!");
             Console.ReadLine();
         }
+
+        public static bool operator ==(Employee employee1, Employee employee2)
+        {
+            //Wait it's actually calling!
+            Console.WriteLine("Checking if two employee IDs are equal...");
+            return (employee1.ID == employee2.ID);
+        }
+
+        //So we call this overload if someone's checking if the two employes (and therefore IDs) aren't equal.
+        //The issue is... why is this required? If the first one returns false, shouldn't that be sufficient?
+        //Why does C# require both a == and a != operator overload?
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            Console.WriteLine("Checking if the two IDs don't match");
+            return (employee1.ID != employee2.ID);
+        }
+
     }
 }
