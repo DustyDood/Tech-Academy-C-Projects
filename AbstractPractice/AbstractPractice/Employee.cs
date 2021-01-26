@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractPractice
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         //I feel like I'm doing this part incorrectly... since the class is abstract,
         // C# won't recognize these properties unless they're repeated here. This seems
@@ -25,6 +25,12 @@ namespace AbstractPractice
 
             Console.WriteLine("My name is {0} {1}, yeah?", this.firstName, this.lastName);
 
+        }
+
+        public void Quit()
+        {
+            Console.WriteLine("You can't tell me what to do! I quit!");
+            Console.ReadLine();
         }
     }
 }

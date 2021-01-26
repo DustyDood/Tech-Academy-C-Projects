@@ -17,6 +17,14 @@ namespace AbstractPractice
 
 
             Console.ReadLine();
+
+            employee.Quit();
+
+
+            //Using polymorphism to create an object of type IQuittable and call the Quit() method on it.
+            IQuittable quittable = new Employee();           
+            quittable.Quit();
+
         }
     }
 }
