@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\bin\Debug\OutputParametersPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\bin\Debug\OutputParametersPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\bin\Debug\OutputParametersPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\obj\Debug\OutputParametersPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\obj\Debug\OutputParametersPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\obj\Debug\OutputParametersPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\OutputParametersPractice\OutputParametersPractice\obj\Debug\OutputParametersPractice.pdb
