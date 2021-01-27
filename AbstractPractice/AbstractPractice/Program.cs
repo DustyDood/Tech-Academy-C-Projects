@@ -10,24 +10,41 @@ namespace AbstractPractice
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.firstName = "Sample";
-            employee.lastName = "Student";
-            employee.ID = "123";
-            employee.sayName();
+            //We've added the generic T to the class for Employee.
+            //Now when we instantiate an instance of Employee, we must include 
+            //a data type in the <...> so the list knows of what type to be!
+            Employee<string> employee = new Employee<string>();
+            employee.things = new List<string>();
 
-            Employee newEmployee = new Employee();
-            newEmployee.firstName = "Another";
-            newEmployee.lastName = "Student";
-            newEmployee.ID = "456";
+            employee.things.Add("Hello");
+            employee.things.Add("Testing");
+
+            employee.listThings();
+
+            //employee.firstName = "Sample";
+            //employee.lastName = "Student";
+            //employee.ID = "123";
+            //employee.sayName();
+
+            Employee<int> newEmployee = new Employee<int>();
+            newEmployee.things = new List<int>();
+
+            newEmployee.things.Add(10);
+            newEmployee.things.Add(130);
+
+            newEmployee.listThings();
+
+            //newEmployee.firstName = "Another";
+            //newEmployee.lastName = "Student";
+            //newEmployee.ID = "456";
 
             //bool IDCheck = employee == newEmployee;
             
-            Console.WriteLine(employee == newEmployee);
-            Console.ReadLine();
+            //Console.WriteLine(employee == newEmployee);
+            //Console.ReadLine();
 
-            Console.WriteLine(employee != newEmployee);
-            Console.ReadLine();
+            //Console.WriteLine(employee != newEmployee);
+            //Console.ReadLine();
 
             //Console.ReadLine();
 
