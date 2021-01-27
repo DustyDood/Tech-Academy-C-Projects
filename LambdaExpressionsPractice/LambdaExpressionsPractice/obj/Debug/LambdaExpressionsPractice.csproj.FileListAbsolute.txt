@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\bin\Debug\LambdaExpressionsPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\bin\Debug\LambdaExpressionsPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\bin\Debug\LambdaExpressionsPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\obj\Debug\LambdaExpressionsPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\obj\Debug\LambdaExpressionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\obj\Debug\LambdaExpressionsPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\LambdaExpressionsPractice\LambdaExpressionsPractice\obj\Debug\LambdaExpressionsPractice.pdb
