@@ -13,11 +13,16 @@ namespace AbstractPractice
             //We've added the generic T to the class for Employee.
             //Now when we instantiate an instance of Employee, we must include 
             //a data type in the <...> so the list knows of what type to be!
-            Employee<string> employee = new Employee<string>();
-            employee.things = new List<string>();
+            Employee<string> employee = new Employee<string>
+            {
+                things = new List<string> { "Hell", "Testing" }
+            };
+                
+            ////Old code    
+            //employee.things = new List<string>();
 
-            employee.things.Add("Hello");
-            employee.things.Add("Testing");
+            //employee.things.Add("Hello");
+            //employee.things.Add("Testing");
 
             employee.listThings();
 

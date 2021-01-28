@@ -28,6 +28,9 @@ namespace TwentyOne
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
                     game.Play();
+                    //Maybe the best bet would be adding the check if players want to continue from here...
+                    //That way, it would be independent of the results. Once a return is encountered for play, it would exit back here.
+                    //Then, we could ask if the user wants to play again... A possibility, at least.
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing.");

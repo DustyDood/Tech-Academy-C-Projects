@@ -50,6 +50,13 @@ namespace TwentyOne
                         {
                             Console.WriteLine("Blackjack! {0} wins {1}", player.Name, Convert.ToInt32(Bets[player]*1.5));
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
+
+                            //The issue is if a player gets blackjack, the game should continue for everyone else.
+                            //Yet, we can't check like we normally do when comparing values, as that would cause additional money to
+                            //the player that got a blackjack. Yet, if I run my PlayAgain(player) code, that will end the game for everyone.
+
+                            //I don't think there's an easy solution without a major retool of the code, sadly...
+
                             return;
 
                         }
@@ -69,7 +76,7 @@ namespace TwentyOne
                         }
 
 
-                        //TRYING THE METHOD ADD HERE
+                        //TRYING THE METHOD ADD HERE TO DETERMINE IF PEEPS WANT TO PLAY AGAIN
                         foreach (Player player in Players)
                         {
                             PlayAgain(player);
@@ -149,16 +156,7 @@ namespace TwentyOne
 
                     foreach (Player player in Players)
                     {
-                        Console.WriteLine("Play again?");
-                        string answer = Console.ReadLine().ToLower();
-                        if (answer == "yes" || answer == "yeah")
-                        {
-                            player.isActivelyPlaying = true;
-                        }
-                        else
-                        {
-                            player.isActivelyPlaying = false;
-                        }
+                        PlayAgain(player);
                     }
                 }
                 return;
