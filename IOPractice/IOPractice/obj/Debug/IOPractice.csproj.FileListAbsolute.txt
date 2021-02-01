@@ -1,0 +1,14 @@
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\bin\Debug\IOPractice.exe.config
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\bin\Debug\IOPractice.exe
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\bin\Debug\IOPractice.pdb
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\obj\Debug\IOPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\obj\Debug\IOPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\obj\Debug\IOPractice.exe
+C:\Users\Dusty Zoland\source\repos\IOPractice\IOPractice\obj\Debug\IOPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\bin\Debug\IOPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\bin\Debug\IOPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\bin\Debug\IOPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\obj\Debug\IOPractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\obj\Debug\IOPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\obj\Debug\IOPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\IOPractice\IOPractice\obj\Debug\IOPractice.pdb
