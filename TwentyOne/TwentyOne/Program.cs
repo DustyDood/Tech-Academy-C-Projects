@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -11,6 +13,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            
+
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
 
@@ -23,6 +27,12 @@ namespace TwentyOne
             if (answer == "yes" || answer == "sure" || answer == "y" || answer == "yeah" || answer == "yah")
             {
                 Player player = new Player(playerName, bank);
+
+                //After building the dll for Casino, this line is throwing an error... 
+                //It says that TwentyOneGame is inaccessible due to its protection level, but everything appears to be public for TwentyOneGame.
+                //I read online it could be a constructor or some method with less visibility, but that doesn't seem to be the case...
+                //Everything in TwentyOneGame appears to be public. What am I missing...
+
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
-    class TwentyOneGame : Game, IWalkAway
+    public class TwentyOneGame : Game, IWalkAway
     {
         //Dealer is created here so that the dealer is specific to the TwentyOneGame
         public TwentyOneDealer Dealer { get; set; }
@@ -56,7 +57,7 @@ namespace TwentyOne
                             //the player that got a blackjack. Yet, if I run my PlayAgain(player) code, that will end the game for everyone.
 
                             //I don't think there's an easy solution without a major retool of the code, sadly...
-
+                            PlayAgain(player);
                             return;
 
                         }
@@ -210,7 +211,7 @@ namespace TwentyOne
 
         //Maybe we can instead make a method to call if the game is over... That way, we can put it in the blackjacks, the busts, and the actual comparisons.
         //Experimental fix... we'll see if it actually works.
-        public void PlayAgain(Player player)
+        public static void PlayAgain(Player player)
         {
             Console.WriteLine("Play again?");
             string answer = Console.ReadLine().ToLower();
