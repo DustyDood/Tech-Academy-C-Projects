@@ -1,0 +1,7 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\bin\Debug\DateTimePractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\bin\Debug\DateTimePractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\bin\Debug\DateTimePractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\obj\Debug\DateTimePractice.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\obj\Debug\DateTimePractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\obj\Debug\DateTimePractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\DateTimePractice\DateTimePractice\obj\Debug\DateTimePractice.pdb
