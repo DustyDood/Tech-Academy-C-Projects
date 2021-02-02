@@ -1,0 +1,6 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\bin\Debug\Const, Var, and Constructors.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\bin\Debug\Const, Var, and Constructors.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\bin\Debug\Const, Var, and Constructors.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\obj\Debug\Const, Var, and Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\obj\Debug\Const, Var, and Constructors.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\Const, Var, and Constructors\Const, Var, and Constructors\obj\Debug\Const, Var, and Constructors.pdb
