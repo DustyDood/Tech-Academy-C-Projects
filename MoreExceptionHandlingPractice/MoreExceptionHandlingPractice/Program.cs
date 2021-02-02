@@ -21,7 +21,15 @@ namespace MoreExceptionHandlingPractice
                 if (userAge == 0) throw new DivideByZeroException();
                 if (userAge < 0) throw new ArithmeticException();
                 if (userAge > 150) throw new ArgumentOutOfRangeException();
-                Console.WriteLine("That's nice! I have no idea what to do with this information since I didn't expect you to answer correctly!");
+
+                //Whoops! I missed the instruction telling us to give the year the user was born. My bad!
+                DateTime dateTime = DateTime.Now;
+
+                //After we get the dateTime for now, we subtract the user's age from the year currently.
+                //This gives us a rough estimate for the year the user was born.
+                int yearBorn = dateTime.Year - userAge;
+
+                Console.WriteLine("You were probably born in the year {0}", yearBorn);
             }
             catch (DivideByZeroException) 
             {
