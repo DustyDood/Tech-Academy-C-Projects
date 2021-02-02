@@ -1,0 +1,6 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\bin\Debug\MoreExceptionHandlingPractice.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\bin\Debug\MoreExceptionHandlingPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\bin\Debug\MoreExceptionHandlingPractice.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\obj\Debug\MoreExceptionHandlingPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\obj\Debug\MoreExceptionHandlingPractice.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\MoreExceptionHandlingPractice\MoreExceptionHandlingPractice\obj\Debug\MoreExceptionHandlingPractice.pdb
