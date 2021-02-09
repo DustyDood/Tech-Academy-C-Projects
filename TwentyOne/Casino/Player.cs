@@ -8,6 +8,13 @@ namespace Casino
 {
     public class Player
     {
+        //Part of a constructor call chain!
+        //It's like an overload... Only a name has to be provided to call
+        //The constructor below it with a beginningBalance of 100!
+        public Player(string name) : this(name, 100)
+        {
+
+        }
         public Player(string name, int beginningBalance)
         {
             Hand = new List<Card>();
@@ -23,6 +30,7 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid ID { get; set; }
 
         public bool Bet(int amount)
         {
