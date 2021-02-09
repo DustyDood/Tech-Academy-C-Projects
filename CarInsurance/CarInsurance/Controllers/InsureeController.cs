@@ -50,6 +50,10 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                //What if we manually override the Quote amount here rather than the user entering something?
+                insuree.Quote = QuoteCalculation(insuree);
+                //Success! THAT MEANS WE CAN RUN A FUNCTION HERE THAT WILL RETURN THE QUOTE VALUE
+                //Phew... I was worried how this would work
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -122,6 +126,62 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        private decimal QuoteCalculation(Insuree insuree)
+        {
+            decimal quoteValue;
+            quoteValue = 50;
+
+            //First we check the insuree's age and raise the quoteValue accordingly
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year <= 18)
+            {
+                quoteValue += 100;
+            }
+            else if (DateTime.Now.Year - insuree.DateOfBirth.Year <= 25)
+            {
+                quoteValue += 50;
+            }
+            else
+            {
+                quoteValue += 25;
+            }
+
+            //Now we check if the car is older than 2000 or newer than 2015
+            if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
+            {
+                quoteValue += 25;
+            }
+
+            //First we check if the Car Make is a Porsche. If so, we add 25 to the quote.
+            if (insuree.CarMake.ToUpper() == "PORSCHE")
+            {
+                quoteValue += 25;
+
+                //If the make is Porsche and the model is 911 Carrera, we add an additional 25
+                if (insuree.CarModel.ToUpper() == "911 CARRERA")
+                {
+                    quoteValue += 25;
+                }
+            }
+
+            //Next, we add $10 for how many speeding tickets the insuree has.
+            quoteValue += (insuree.SpeedingTickets * 10);
+
+            //Then, we check for a DUI and increase the price by 25%
+            if (insuree.DUI)
+            {
+                quoteValue *= 1.25m;
+            }
+
+            //Finally, we check if it's full coverage, multiplying by 1.5 if so
+            if (insuree.CoverageType)
+            {
+                quoteValue *= 1.5m;
+            }
+
+            //After all the calculations, the quoteValue is returned.
+            return quoteValue;
         }
     }
 }

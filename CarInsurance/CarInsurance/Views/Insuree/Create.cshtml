@@ -99,6 +99,7 @@
             </div>
         </div>
 
+        <!-- Commenting this out for now! I want to have quote calculate on its own, not by user input
         <div class="form-group">
             @Html.LabelFor(model => model.Quote, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -106,6 +107,9 @@
                 @Html.ValidationMessageFor(model => model.Quote, "", new { @class = "text-danger" })
             </div>
         </div>
+        -->
+
+        <!--With the above commented out, the quote defaults to 0.00!-->
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
