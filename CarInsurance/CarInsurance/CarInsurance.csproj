@@ -152,6 +152,7 @@
       <DependentUpon>InsuranceEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\InsureeVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Insurance.mdf" />
@@ -215,6 +216,7 @@
     <Content Include="Views\Insuree\Details.cshtml" />
     <Content Include="Views\Insuree\Edit.cshtml" />
     <Content Include="Views\Insuree\Index.cshtml" />
+    <Content Include="Views\Insuree\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

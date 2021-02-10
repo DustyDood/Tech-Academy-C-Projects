@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CarInsurance.Models;
+using CarInsurance.ViewModels;
 
 namespace CarInsurance.Controllers
 {
@@ -182,6 +183,29 @@ namespace CarInsurance.Controllers
 
             //After all the calculations, the quoteValue is returned.
             return quoteValue;
+        }
+
+        public ActionResult Admin()
+        {
+            //First we grab all our dB entries in a list
+            var dbEntries = db.Insurees.ToList();
+            //Then we create a list of our ViewModel
+            var dbEntriesVM = new List<InsureeVM>();
+            //Then we loop through all entries in our initial list, passing the 
+            //relevant values to our ViewModel!
+            foreach (Insuree dbEntry in dbEntries)
+            {
+                var dbEntryVM = new InsureeVM();
+                dbEntryVM.FirstName = dbEntry.FirstName;
+                dbEntryVM.LastName = dbEntry.LastName;
+                dbEntryVM.EmailAddress = dbEntry.EmailAddress;
+                dbEntryVM.Quote = dbEntry.Quote;
+                dbEntriesVM.Add(dbEntryVM);
+            }
+            //Hopefully this works...
+
+
+            return View(dbEntriesVM);
         }
     }
 }

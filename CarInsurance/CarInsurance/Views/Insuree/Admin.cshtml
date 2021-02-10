@@ -1,0 +1,48 @@
+﻿@using CarInsurance.ViewModels
+@model List<InsureeVM>
+
+@{
+  ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+<!--This foreach loop is no longer working! it says that we can't convert
+  type Insuree to ...
+  WAIT. I think it just needed to build. Should be good..?-->
+
+<!--Why does formatting always get wonky in .cshtml files? My tabs only do 2 spaces...-->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">First Name</th>
+      <th scope="col">Lastt Name</th>
+      <th scope="col">Email Address</th>
+      <th scope="col">Quote</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (InsureeVM insuree in Model)
+    {
+      <tr>
+        <td>
+          @insuree.FirstName
+        </td>
+        <td>
+          @insuree.LastName
+        </td>
+        <td>
+          @insuree.EmailAddress
+        </td>
+        <td class="col">
+          @insuree.Quote
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+
+
+
