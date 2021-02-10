@@ -13,6 +13,7 @@
 
 <!--Why does formatting always get wonky in .cshtml files? My tabs only do 2 spaces...-->
 
+<!--Using a little bit of Boostrap, we now create a table for our data-->
 <table class="table">
   <thead>
     <tr>
@@ -25,6 +26,8 @@
   <tbody>
     @foreach (InsureeVM insuree in Model)
     {
+      <!--We put the row creation in our foreach loop so a new row is generated
+        each time we encounter a new entry-->
       <tr>
         <td>
           @insuree.FirstName
@@ -43,6 +46,7 @@
   </tbody>
 </table>
 
-
+<!--Success! It's not the prettiest, but we now have a table displaying
+  the four requested properties for the Admin page!-->
 
 
