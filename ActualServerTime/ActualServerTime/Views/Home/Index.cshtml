@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my very simple application!</h1>
+    <p> The current time is: @DateTime.Now.ToShortTimeString()</p>
+    <p>Maybe we can add a button here to update the time...</p>
+    <p>Nevermind! That's too complicated for a rapid assignment. Instead, below's a message:</p>
+    <p>@ViewBag.Message</p>
+</div>
