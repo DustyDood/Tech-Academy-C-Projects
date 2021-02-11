@@ -1,0 +1,12 @@
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\CodeFirstStudentDB.NETFramework.exe.config
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\CodeFirstStudentDB.NETFramework.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\CodeFirstStudentDB.NETFramework.pdb
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\EntityFramework.dll
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\EntityFramework.xml
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\obj\Debug\CodeFirstStudentDB.NETFramework.csprojAssemblyReference.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\obj\Debug\CodeFirstStudentDB.NETFramework.csproj.CoreCompileInputs.cache
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\obj\Debug\CodeFirstStudentDB.NETFramework.csproj.CopyComplete
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\obj\Debug\CodeFirstStudentDB.NETFramework.exe
+C:\Users\Dusty Zoland\Desktop\Basic_C#_Programs\Tech-Academy-CSharp-Projects\CodeFirstStudentDB.NETFramework\CodeFirstStudentDB.NETFramework\obj\Debug\CodeFirstStudentDB.NETFramework.pdb
